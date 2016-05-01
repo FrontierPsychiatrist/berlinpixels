@@ -1,0 +1,32 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+#about {
+    position: absolute;
+    right: 1px;
+    top: 51px;
+    font-size: 10px;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+#cc {
+    width: 88px !important;
+}
+
+#content {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 40px;
+    max-width: 80%;
+
+    .img {
+      width: 100%;
+    }
+}
